@@ -22,7 +22,7 @@ header{
     font-family: 'Delicious Handrawn', cursive;
 }
 .logo{
-    color:fff ;
+    color:white ;
     font-weight: 600;
     font-size: 2.4rem;
 }
@@ -159,7 +159,7 @@ section{
     background-color: #000000;
     padding: 20px;
     border-radius: 0.5rem;
-    color: 
+    color: transparent;
 }
 .box-img{
     width: 220px;
@@ -177,7 +177,7 @@ section{
 }
 .box span{
     font-size: 0.9rem;
-    color: black
+    color: black;
     font-weight: 600;
 }
 .box .bx{
@@ -310,6 +310,7 @@ form input{
     header{
         padding: 15px 40px;
     }
+}
 @media(max-width:1140px){
     section{
         padding: 50px 8%;
